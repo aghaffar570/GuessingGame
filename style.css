@@ -1,0 +1,153 @@
+/*Start Menu*/
+
+#startMenu{
+    background: pink;
+    /*background: skyblue;*/
+    height: 100vh;
+    font-family:sans-serif, georgia, arial;
+    letter-spacing: 0.1px;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+#showcase {
+    width: 750px;
+    margin: 0 auto;
+    height: 350px;
+    position: relative;
+    top: 130px;
+    background: linear-gradient(to right, orange, salmon);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    color: white;
+}
+
+
+#text-content{
+    font-family: lato, sans-serif;
+    position: relative;
+    font-size: 1.5em;
+    top:20%;
+    opacity: 1;
+}
+
+#text-content h1{
+    opacity: 1;
+}
+
+#text-content button{
+    width:150px;
+    height: 50px;
+    background: skyblue;
+    letter-spacing: 0.1em;
+    color:white;
+    border-radius: 30px;
+    border-top: 3px solid teal;
+    border-left: 3px solid teal;
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+    box-shadow: 0 9px 60px rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-size:20px;
+}
+
+
+
+/*Main application*/
+
+#app{
+    /*background: url('images/large.jpeg') no-repeat center bottom;
+    background: cover;*/
+    background: salmon;
+    opacity: 0.7;
+    height: 100vh;
+}    
+
+
+header{
+    color: white;
+    text-shadow: 2px 1px 8px red;
+}
+
+#inputs div{
+    position: relative;
+}
+
+input[type=text]{
+    color: cadetblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+input[type=submit]{
+/*    padding: 9px;*/
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green; 
+    border-top: 1px solid skyblue;
+    border-left: 1px solid skyblue;
+    position: absolute;
+    top: 54%;
+    left: 53%;
+}
+
+input[type=submit]:hover{
+    box-shadow: 0px 0px 0px 1px lightgreen inset, 0px 0px 0px 1px white inset;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li{
+    display: inline-block;
+    background: white;
+    padding: 30px;
+/*    border: 1px solid;*/
+    border-radius: 20px;
+    margin: 20px 9px;
+    font-size: 20px;
+    width: 90px;
+}
+
+
+
+
+button{
+    padding: 8px;
+    width: 100px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+
+button:hover{
+    box-shadow: 0px 0px 0px 1px skyblue inset, 0px 0px 0px 1px white inset;
+}
+
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}

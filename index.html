@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <!-- Bootstrap and CSS here-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+
+  </head>
+  <body>
+        
+        
+    <section id="startMenu" class="row">
+		<div id="showcase" class="col-sm-6">
+			<div id="text-content">
+				<h1>Play the Guessing Game</h1>
+				<p>Click start to begin</p>
+				<button>Start</button>
+			</div>
+		</div>
+	</section>
+   
+   
+    <section id="game">
+    <div id='app' class="container-fluid text-center">
+
+        <header>
+          <!-- Title and subtitles! -->
+            <h1 class="display-1">Play the Guessing Game!</h1>
+            <h2 class="lead">Guess a number between 1-100</h2>
+        </header>
+
+        <main>
+          <div id='inputs'>
+            <div>
+                <input type="text" placeholder="#" required pattern="[0-9]{1,2}">
+                <input type="submit" value="Go!" class="btn btn-success text-white">    
+            </div>
+          </div>
+
+          <div id='guesses' class="container">
+            <ul>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button class="bg-primary text-white">Reset</button>
+            <button class="bg-primary text-white">Hint</button>
+          </div>
+          
+        </main>
+      </div>
+
+
+
+    <div id='footer'>
+        <div class="row">
+          <div class='col-md'>
+            <img src='images/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-md'>
+            <h4>Project by Abdul Ghaffar</h4>
+          </div>
+    
+          <div class='col-md rounded float-right'>
+            <img src='images/grace_hopper_academy.png'></img>
+          </div>
+
+        </div>
+    </div>
+
+   </section>
+   
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+    <!--jquery CDN, then my js file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script> 
+		$('#text-content button').click(function(){
+			$('#startMenu').slideUp();
+            $('#game').css({
+                
+            })
+		});
+	</script>
+  </body>
+</html>
