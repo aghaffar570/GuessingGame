@@ -19,13 +19,13 @@
 			<div id="text-content">
 				<h1>Play the Guessing Game</h1>
 				<p>Click start to begin</p>
-				<button>Start</button>
+				<button id="button">Start</button>
 			</div>
 		</div>
 	</section>
    
    
-    <section id="game">
+    <section>
     <div id='app' class="container-fluid text-center">
 
         <header>
@@ -64,7 +64,7 @@
 
     <div id='footer'>
         <div class="row">
-          <div class='col-md'>
+          <div class='col-md fullstack'>
             <img src='images/fa-logo@2x.png'></img>
           </div>
 
@@ -72,7 +72,7 @@
             <h4>Project by Abdul Ghaffar</h4>
           </div>
     
-          <div class='col-md rounded float-right'>
+          <div class='col-md grace'>
             <img src='images/grace_hopper_academy.png'></img>
           </div>
 
@@ -90,13 +90,7 @@
     
     <!--jquery CDN, then my js file-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script> 
-		$('#text-content button').click(function(){
-			$('#startMenu').slideUp();
-            $('#game').css({
-                
-            })
-		});
-	</script>
+    <script src="GuessingGame-Part2/script.js"></script>
+
   </body>
 </html>
